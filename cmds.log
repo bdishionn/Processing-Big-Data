@@ -95,3 +95,21 @@
    95  wget www.github.com
    96  cd cs131
    97  history > cmds.log
+   98  git add cmds.log
+   99  git commit -m "cmds.log"
+  100  git pull
+  101  git pull origin cmds.log
+  102  git pull origin master
+  103  git confif pull.rebase false
+  104  git congig pull.rebase false
+  105  git config pull.rebase false
+  106  git pull origin master
+  107  git push origin master
+  108  wget www.github.com
+  109  cd cs131
+  110  history > cmds.log
+  111  wget www.gethub.com
+  112  wget www.github.com
+  113  cd cs131
+  114  cd Worksheet1
+  115  history > cmds.log
