@@ -263,3 +263,10 @@
   263  git status
   264  wget www.github.com
   265  history > cmds.log
+  266  git add cmds.log
+  267  git commit -m "ws1"
+  268  git push
+  269  rm -rf Worksheet1
+  270  mkdir Worksheet1
+  271  wget www.github.com
+  272  history > cmds.log
