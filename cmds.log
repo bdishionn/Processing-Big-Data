@@ -186,3 +186,11 @@
   186  cd cs131
   187  mkdir Worksheet1
   188  history > cmds.log
+  189  touch cmds.log
+  190  git add cmds.log
+  191  git commit -m "Worksheet1 CS 131"
+  192  git push
+  193  rm -rf -Worksheet1
+  194  rm -rf Worksheet1
+  195  mkdir Worksheet1
+  196  history > cmds.log
