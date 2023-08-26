@@ -166,3 +166,12 @@
   166  rm -rf Worksheet1
   167  mkdir Worksheet1
   168  history > cmds.log
+  169  touch cmds.log
+  170  git add cmds.log
+  171  git commit -m "first worksheet CS 131"
+  172  git push 
+  173  git push
+  174  rm -rf Worksheet1
+  175  mkdir Worksheet1
+  176  history cmds.log
+  177  history > cmds.log
