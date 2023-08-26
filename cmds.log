@@ -175,3 +175,14 @@
   175  mkdir Worksheet1
   176  history cmds.log
   177  history > cmds.log
+  178  touch cmds.log
+  179  git add cmds.log
+  180  git commit -m "worksheet1 cs131"
+  181  git pull
+  182  git push
+  183  cd cs131
+  184  rm -rf Worksheet1
+  185  wget www.github.com
+  186  cd cs131
+  187  mkdir Worksheet1
+  188  history > cmds.log
