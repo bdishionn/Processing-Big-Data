@@ -194,3 +194,12 @@
   194  rm -rf Worksheet1
   195  mkdir Worksheet1
   196  history > cmds.log
+  197  touch cmds.log
+  198  git add cmds.log
+  199  git commit -m "Worksheet1 CS131"
+  200  git push origin master
+  201  rm -rf Worksheet1
+  202  cd cs131
+  203  wget www.github.com
+  204  mkdir Worksheet1
+  205  history > cmds.log
