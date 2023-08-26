@@ -113,3 +113,56 @@
   113  cd cs131
   114  cd Worksheet1
   115  history > cmds.log
+  116  git add cmds.log
+  117  git commit -m "cmds.log"
+  118  git pull
+  119  git push origin master
+  120  wget www.github.com
+  121  wget wwwi.github.com
+  122  wget www.github.com
+  123  git remote add origin https://github.com/bdishionn/cs131/blob/master/Worksheet1
+  124  cd Worksheet1
+  125  mkdir Worksheet1
+  126  touch confif/.placeholder
+  127  touch config/.placeholder
+  128  wget www.github.com
+  129  mkdir Worksheet1
+  130  touch Worksheet1/.placeholder
+  131  git add Worksheet1/.placeholder
+  132  cd cs 131
+  133  cd cs131
+  134  git add Worksheet1/.placeholder
+  135  mkdir Worksheet1
+  136  touch Worksheet1/.placeholder
+  137  touch Worksheet1
+  138  git add Worksheet1
+  139  git commit -m "Worksheet1"
+  140  git push origin master
+  141  git commit origin master
+  142  bdishionn
+  143  git push origin master
+  144  touch Worksheet1
+  145  git add Worksheet1
+  146  cd cs 131
+  147  cd cs131
+  148  touch Worksheet1
+  149  git add Worksheet1
+  150  git commit -m "Worksheet1"
+  151  git push origin master
+  152  cd cs131
+  153  wget www.github.com
+  154  cd cs131
+  155  cd Worksheet1
+  156  cd cs131
+  157  wget www.github.com
+  158  cd cs131
+  159  history > cmds.log
+  160  cd Worksheet1
+  161  mkdir Worksheet1
+  162  cd Worksheet1
+  163  rmdir Worksheet1
+  164  mkdir Worksheet1
+  165  rmdir Worksheet1
+  166  rm -rf Worksheet1
+  167  mkdir Worksheet1
+  168  history > cmds.log
