@@ -1,0 +1,638 @@
+    1  studnet
+    2  passwd
+    3  ping 172.20.25.9
+    4  wget http://www.github.com/
+    5  wget www.github.com
+    6  cd ~/Desktop
+    7  wget www.github.com
+    8  cd ~/Desktop
+    9  cd Desktop
+   10  cd CS 131
+   11  cd CS131
+   12  cd Python
+   13  cd /Desktop
+   14  cd ~/Desktop
+   15  cd ~/CS131
+   16  sudo dnf install git-all
+   17  cd /Desktop
+   18  cd ~/Desktop
+   19  mkdir cs131
+   20  cd cs131/
+   21  git init
+   22  touch bdishion.txt
+   23  ls
+   24  bdishion.txt
+   25  git status
+   26  git add bdishion.txt
+   27  git status
+   28  git commit -m
+   29  git commit -m "This is my first commit"
+   30  git config --global user.name "Brendan"
+   31  git config --global user.email "brendan.dishion@sjsu.edu"
+   32  git commit -m "This is my first commit"
+   33  git checkout -b New branch
+   34  git checkout -b branch2
+   35  git branch
+   36  git remote add origin https://github.com/bdishionn/cs131.git
+   37  git push -u origin master
+   38  gh auth login
+   39  git push -u origin master
+   40  git push -u master
+   41  git push -u origin master
+   42  git push -m origin master
+   43  git push -u origin master
+   44  git push origin branch2
+   45  git pulll origin master
+   46  git pull origin master
+   47  git log
+   48  history > cmds.log
+   49  wget www.github.com
+   50  history > cmds.log
+   51  git add cmds.log
+   52  git add .
+   53  wget www.github.com
+   54  history > cmds.log
+   55  git add cmds.log
+   56  cd cs131
+   57  git add cmds.log
+   58  git commit -m "Added command history log file to repo"
+   59  git push -u origin master
+   60  git pull origin master
+   61  wget www.github.com
+   62  cd CS131
+   63  cd /CS131
+   64  wget www.github.com
+   65  cd cs131
+   66  history > cmds.log
+   67  git add cmds.log
+   68  git commit -m "cmds.log"
+   69  git push origin Worksheet1
+   70  git push origin master
+   71  wget www.github.com
+   72  cd cs131
+   73  history > cmds.log
+   74  git add cmds.log
+   75  git commit -m "cmds.log"
+   76  git push origin master
+   77  Updates were rejected because a pushed branch tip is behind its remote
+   78  hint: counterpart. Check out this branch and integrate the remote changes
+   79  hint: (e.g. 'git pull ...') before pushing again.
+   80  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+   81  git pull origin master
+   82  git config pull.ff 
+   83  git push origin master
+   84  wget www.github.com
+   85  cd cs131
+   86  history > cmds.logs
+   87  git add cmds.logs
+   88  git commit -m "cmds.log"
+   89  git pull
+   90  git push origin master
+   91  git checkout master
+   92  git pull origin master
+   93  git merge origin/master
+   94  git push origin master
+   95  wget www.github.com
+   96  cd cs131
+   97  history > cmds.log
+   98  git add cmds.log
+   99  git commit -m "cmds.log"
+  100  git pull
+  101  git pull origin cmds.log
+  102  git pull origin master
+  103  git confif pull.rebase false
+  104  git congig pull.rebase false
+  105  git config pull.rebase false
+  106  git pull origin master
+  107  git push origin master
+  108  wget www.github.com
+  109  cd cs131
+  110  history > cmds.log
+  111  wget www.gethub.com
+  112  wget www.github.com
+  113  cd cs131
+  114  cd Worksheet1
+  115  history > cmds.log
+  116  git add cmds.log
+  117  git commit -m "cmds.log"
+  118  git pull
+  119  git push origin master
+  120  wget www.github.com
+  121  wget wwwi.github.com
+  122  wget www.github.com
+  123  git remote add origin https://github.com/bdishionn/cs131/blob/master/Worksheet1
+  124  cd Worksheet1
+  125  mkdir Worksheet1
+  126  touch confif/.placeholder
+  127  touch config/.placeholder
+  128  wget www.github.com
+  129  mkdir Worksheet1
+  130  touch Worksheet1/.placeholder
+  131  git add Worksheet1/.placeholder
+  132  cd cs 131
+  133  cd cs131
+  134  git add Worksheet1/.placeholder
+  135  mkdir Worksheet1
+  136  touch Worksheet1/.placeholder
+  137  touch Worksheet1
+  138  git add Worksheet1
+  139  git commit -m "Worksheet1"
+  140  git push origin master
+  141  git commit origin master
+  142  bdishionn
+  143  git push origin master
+  144  touch Worksheet1
+  145  git add Worksheet1
+  146  cd cs 131
+  147  cd cs131
+  148  touch Worksheet1
+  149  git add Worksheet1
+  150  git commit -m "Worksheet1"
+  151  git push origin master
+  152  cd cs131
+  153  wget www.github.com
+  154  cd cs131
+  155  cd Worksheet1
+  156  cd cs131
+  157  wget www.github.com
+  158  cd cs131
+  159  history > cmds.log
+  160  cd Worksheet1
+  161  mkdir Worksheet1
+  162  cd Worksheet1
+  163  rmdir Worksheet1
+  164  mkdir Worksheet1
+  165  rmdir Worksheet1
+  166  rm -rf Worksheet1
+  167  mkdir Worksheet1
+  168  history > cmds.log
+  169  touch cmds.log
+  170  git add cmds.log
+  171  git commit -m "first worksheet CS 131"
+  172  git push 
+  173  git push
+  174  rm -rf Worksheet1
+  175  mkdir Worksheet1
+  176  history cmds.log
+  177  history > cmds.log
+  178  touch cmds.log
+  179  git add cmds.log
+  180  git commit -m "worksheet1 cs131"
+  181  git pull
+  182  git push
+  183  cd cs131
+  184  rm -rf Worksheet1
+  185  wget www.github.com
+  186  cd cs131
+  187  mkdir Worksheet1
+  188  history > cmds.log
+  189  touch cmds.log
+  190  git add cmds.log
+  191  git commit -m "Worksheet1 CS 131"
+  192  git push
+  193  rm -rf -Worksheet1
+  194  rm -rf Worksheet1
+  195  mkdir Worksheet1
+  196  history > cmds.log
+  197  touch cmds.log
+  198  git add cmds.log
+  199  git commit -m "Worksheet1 CS131"
+  200  git push origin master
+  201  rm -rf Worksheet1
+  202  cd cs131
+  203  wget www.github.com
+  204  mkdir Worksheet1
+  205  history > cmds.log
+  206  touch cmds.log
+  207  git add cmds.log
+  208  git commit -m "ws1 CS 131"
+  209  git push origin master
+  210  git pull
+  211  rm -rf Worksheet1
+  212  mkdir Worksheet1
+  213  history > cmds.log
+  214  touch > cmds.log
+  215  touch cmds.log
+  216  git add cmds.log
+  217  git commit -m "ws1 CS131"
+  218  git pull
+  219  git pull origin master
+  220  git commit -m "ws1 CS131"
+  221  rm -rf Worksheet1
+  222  rm index.html
+  223  rm -rf index.html1 index.html index.html2
+  224  cd cs131
+  225  mkdir Worksheet1
+  226  wget www.gethub.com
+  227  rm -rf Worksheet1
+  228  cd cs131
+  229  wget www.github.com
+  230  mkdir Worksheet1
+  231  rm -rf Worksheet1
+  232  mkdir Worksheet1
+  233  history > cmds.log
+  234  touch cmds.log
+  235  git add cmds.log
+  236  git commit -m "ws1 cs131"
+  237  git pull 
+  238  git push
+  239  git pull --rebase origin master
+  240  git status
+  241  git add Worksheet1
+  242  git commit -m "ws cs131"
+  243  git push
+  244  git add Worksheet1
+  245  git pull 
+  246  git checkout cmds.loh
+  247  git checkout cmds.log
+  248  git rm cmds.log
+  249  git status
+  250  git add cmds.log
+  251  git add Worksheet1
+  252  git commit -m "ws1 cs131"
+  253  git push
+  254  wget www.github.com
+  255  history > cmds.log
+  256  git add cmds.log
+  257  git push
+  258  git commit -m "ws1"
+  259  git push
+  260  git pull
+  261  cd cs131
+  262  cd Worksheet1
+  263  git status
+  264  wget www.github.com
+  265  history > cmds.log
+  266  git add cmds.log
+  267  git commit -m "ws1"
+  268  git push
+  269  rm -rf Worksheet1
+  270  mkdir Worksheet1
+  271  wget www.github.com
+  272  history > cmds.log
+  273  touch cmds.log
+  274  git add cmds.log
+  275  git commit -m "Worksheet1"
+  276  git push
+  277  git pull
+  278  git push
+  279  git pull
+  280  git add cmds.log
+  281  git commit -m "Worksheet1"
+  282  git push
+  283  cd cs131
+  284  cd Worksheet1
+  285  Downloads % python3
+  286  print('hello')
+  287  %python3
+  288  % python3
+  289  pwd
+  290  mkdir exampleDir
+  291  ls
+  292  cd exmapleDir
+  293  cd exampleDir
+  294  ls
+  295  clear
+  296  ls
+  297  touch a.txt
+  298  ls
+  299  man ls
+  300  ls -t
+  301  touch b.txt
+  302  touch c.txt
+  303  ls
+  304  ls -l
+  305  ls -t
+  306  ls -lt
+  307  ls -r
+  308  man ls
+  309  ls -C
+  310  ping 172.20.25.9
+  311  ls
+  312  cd exmapleDir
+  313  cd exampleDir
+  314  cd../..
+  315  cd ../..
+  316  cd exampleDir
+  317  ls
+  318  quit
+  319  end
+  320  cd bdishionf23/exampleDir
+  321  cd exampleDir
+  322  vi a.txt
+  323  cd exampleDir
+  324  ls
+  325  vi a.txt
+  326  rm -rf exampleDir
+  327  ls
+  328  rm -rf index.html.14
+  329  rm -rf index.html.7
+  330  rm -rf index.html.8
+  331  ls
+  332  rm -rf index.html.10
+  333  rm -rf index.html.12
+  334  rm -rf index.html.13
+  335  rm -rf index.html.15
+  336  ls
+  337  rm -rf index.html.11
+  338  rm -rf index.html.3 index.html.4 index.html.9
+  339  ls
+  340  rm -rf index.html.2 index.html.6 index.html.1
+  341  rm -rf index.html.5
+  342  ls
+  343  ls -lat
+  344  ls
+  345  ls -latr
+  346  cd Worksheet1
+  347  cd cs131
+  348  cd Worksheet1
+  349  ls
+  350  rm -r index.html.1
+  351  ls
+  352  ls *.txt
+  353  cd cs131
+  354  ls
+  355  cd -cs131
+  356  cd -
+  357  ls
+  358  cd -
+  359  ls
+  360  cd/
+  361  cd\
+  362  mkdir sampleProject
+  363  cd sampleProject
+  364  touch sample.txt
+  365  ls -ltr
+  366  git init
+  367  git add sample.txt
+  368  git status
+  369  touch dontcommit.txt
+  370  git status
+  371  ls
+  372  rm -rf sample.txt dontcommit.txt
+  373  ls
+  374  mkdir SampleRepoforCS131
+  375  touch a.txt
+  376  git add .
+  377  ls -ltr
+  378  git init
+  379  touch sampleText.txt
+  380  ls
+  381  git add .
+  382  git status
+  383  cd ~/.ssh && ssh-keygen
+  384  git status
+  385  cd SampleRepoForCS131
+  386  mkdir SampleRepoForCS131
+  387  touch a.txt
+  388  git add .
+  389  ls -ltr
+  390  cd SampleRepoForCS131
+  391  git init
+  392  touch sampleText.txt
+  393  ls
+  394  pwd
+  395  git add .
+  396  git status
+  397  cd ~/.ssh && ssh-keygen
+  398  [brendanf23@sjsu sampleProject]$ mkdir SampleRepoForCS131
+  399  [brendanf23@sjsu sampleProject]$ touch a.txt
+  400  [brendanf23@sjsu sampleProject]$ git add .
+  401  [brendanf23@sjsu sampleProject]$ ls -ltr
+  402  total 8
+  403  drwxrwxr-x 2 brendanf23 brendanf23 4096 Aug 30 19:49 SampleRepoforCS131
+  404  -rw-rw-r-- 1 brendanf23 brendanf23    0 Aug 30 19:50 sampleText.txt
+  405  drwxrwxr-x 2 brendanf23 brendanf23 4096 Aug 30 19:53 SampleRepoForCS131
+  406  -rw-rw-r-- 1 brendanf23 brendanf23    0 Aug 30 19:53 a.txt
+  407  [brendanf23@sjsu sampleProject]$ cd SampleRepoForCS131
+  408  [brendanf23@sjsu SampleRepoForCS131]$ git init
+  409  hint: Using 'master' as the name for the initial branch. This default branch name
+  410  hint: is subject to change. To configure the initial branch name to use in all
+  411  hint: of your new repositories, which will suppress this warning, call:
+  412  hint:
+  413  hint:   git config --global init.defaultBranch <name>
+  414  hint:
+  415  hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+  416  hint: 'development'. The just-created branch can be renamed via this command:
+  417  hint:
+  418  hint:   git branch -m <name>
+  419  Initialized empty Git repository in /mnt/scratch/FA23_CS131_Ashish/brendanf23/sampleProject                                                                                              /SampleRepoForCS131/.git/
+  420  [brendanf23@sjsu SampleRepoForCS131]$ touch sampleText.txt
+  421  [brendanf23@sjsu SampleRepoForCS131]$ ls
+  422  sampleText.txt
+  423  [brendanf23@sjsu SampleRepoForCS131]$ pwd
+  424  /mnt/scratch/FA23_CS131_Ashish/brendanf23/sampleProject/SampleRepoForCS131
+  425  [brendanf23@sjsu SampleRepoForCS131]$ git add .
+  426  [brendanf23@sjsu SampleRepoForCS131]$ git status
+  427  On branch master
+  428  No commits yet
+  429  Changes to be committed:
+  430    (use "git rm --cached <file>..." to unstage)
+  431          new file:   sampleText.txt
+  432  [brendanf23@sjsu SampleRepoForCS131]$ cd ~/.ssh && ssh-keygen
+  433  -bash: cd: /mnt/scratch/FA23_CS131_Ashish/brendanf23/.ssh: No such file or directory
+  434  [brendanf23@sjsu SampleRepoForCS131]$ cd ~/.ssh && ssh-keygen
+  435  mkdir ~/.ssh
+  436  cd ~/.ssh && ssh-keygen
+  437  cat id_rsa.pub
+  438  rmdir sampleProject
+  439  git status
+  440  cd sampleProject
+  441  rmdir SampleProject
+  442  rm -rf sampleProject
+  443  mkdir sampleProject
+  444  ls -ltr
+  445  rm -rf SampleRepoforCs131 sampleText.txt a.txt SampleRepoForCS131
+  446  ls -ltr
+  447  rm -rf SampleRepoforCS131
+  448  ls -ltr
+  449  cd sampleProject/
+  450  touch sampleFile.txt
+  451  git init
+  452  git add .
+  453  git status
+  454  git config --global user.email "bdish1234@gmail.com"
+  455  git config --global user.name "bdishionn"
+  456  cd ~/.ssh && ssh-keygen
+  457  cat id_rsa.pub
+  458  cat sampleFile.txt.pub
+  459  git remote add origin bdishionn/SampleRepoForCS131.git
+  460  git remote add origin https://github.com/bdishionn/SampleRepoForCS131
+  461  git remote add origin bdish1234@gmail.com:bdishion/SampleRepoForCS131
+  462  git remote add origiin bdish1234@gmail.com:bdishionn/SampleRepoForCS131.git
+  463  git remote add origin git@github.com:bdishionn/SampleRepoForCS131.git
+  464  git init
+  465  rm -rf sampleProject
+  466  git status
+  467  rm -rf sampleFile.txt sampleFile.txt.pub sampleText.txt sampleText.txt.pub
+  468  git status
+  469  git config --global user.email "bdish1234@gmail.com"
+  470  git config -- global user.name "bdishionn"
+  471  git config --global user.name "bdishionn"
+  472  cd Worksheet1
+  473  cd..
+  474  cd .. 
+  475  cd Worksheet1
+  476  git status
+  477  mkdir Worksheet1
+  478  ls -ltr
+  479  rm -rf Worksheet1
+  480  cd cs131
+  481  cd Worksheet1
+  482  ls -ltr
+  483  cd sshProject/
+  484  touch ssh.txt
+  485  git init
+  486  git add .
+  487  git status
+  488  mkdir ~/.ssh
+  489  cat id_rsa.pub
+  490  cat id_ssh.txt.pub
+  491  cat id_ssh.txt
+  492  cat ssh.txt
+  493  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  494  ls
+  495  pwd
+  496  cd spotify-2023.csv
+  497  vi spotify-2023.csv
+  498  mkdir sort.txt
+  499  cd sort.txt
+  500  rm -rf sort.txt
+  501  cd -
+  502  vi sort.txt
+  503  mkdir sort.txt
+  504  vi sort.txt
+  505  cat sort.txt
+  506  ls
+  507  rm -rf sort.txt
+  508  vi spotify-2023.csv
+  509  vi sort.txt
+  510  sort sort.txt
+  511  cat sort.txt
+  512  ls
+  513  mkdir sort.txt
+  514  vi sort.txt
+  515  sort sort.txt
+  516  grep John sort.txt
+  517  cd sort.txt
+  518  grep John sort.txt
+  519  ls
+  520  cd -
+  521  ls
+  522  mkdir sort.txt
+  523  rm -rf sort.txt
+  524  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  525  ls
+  526  wc 
+  527  wc -l sporify-2023.csv
+  528  wc -l spotify-2023.csv
+  529  ls
+  530  sort sort.txt
+  531  mkdir sort.txt
+  532  sort sort.txt
+  533  -rm rf sort.txt
+  534  rm -rf sort.txt
+  535  mkdir new
+  536  sort new.txt
+  537  sort new
+  538  rm -rf new
+  539  touch new
+  540  sort new
+  541  cat new
+  542  grep -i john new
+  543  ls new
+  544  new
+  545  ls
+  546  vi new
+  547  wget www.github.com
+  548  mkdir Worksheet2
+  549  touch Worksheet2/.placeholder
+  550  git add Worksheet2/.placeholder
+  551  git add Worksheet2
+  552  lsp
+  553  ls
+  554  git add Worksheet/.placeholder
+  555  cd cs131
+  556  mkdir Worksheet2
+  557  touch Worksheet2/.placeholder
+  558  git add Worksheet2/.placeholder
+  559  git commit -m "First commit - empty directory"
+  560  git push origin master
+  561  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  562  grep "United States" https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  563  grep "United States" Global%20YouTube%20Statistics.csv
+  564  ls
+  565  grep "United States" Global Youtube Statistics.csv
+  566  grep "United States" GlobalYoutubeStatistics.csv
+  567  ls
+  568  cd Worksheet2
+  569  rm -rf Global%Youtube%Statistics.csv
+  570  ls
+  571  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  572  grep "United States" Global%Youtube%Statistics.csv
+  573  ls
+  574  grep "United States" Global%Youtube%Statistics.csv
+  575  ls
+  576  grep "United States" GlobalYoutubeStatistics.csv
+  577  grep "United States" "Global Youtube Statistics.csv"
+  578  ls
+  579  ls -l "Global Youtube Statistics.csv"
+  580  ls
+  581  grep "United States" "'Global Youtube Statistics.csv'"
+  582  grep "United States" 'Global Youtube Statistics.csv'
+  583  ls -l
+  584  grep "United States"
+  585  ls
+  586  cd Worksheet2
+  587  rm -rf Global%Youtube%Statistics.csv
+  588  ls
+  589  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  590  ls
+  591  grep "United States" "'Global%Youtube%Statistics'"
+  592  grep "United States" *
+  593  grep -i "United States" *
+  594  grep "United States" *
+  595  grep "Music" *
+  596  grep "Music" * | wc -l
+  597  grep "Music" * | wc -w
+  598  mkdir counts.txt
+  599  grep "Music" * | wc -l > counts.txt
+  600  ls
+  601  rm -rf counts.txt
+  602  touch counts.txt
+  603  grep "Music" * | wc -l > counts.txt
+  604  grep "Music" * | wc -w >> counts.txt
+  605  cd counts.txt
+  606  vi counts.txt
+  607  grep "Music" * | wc -l
+  608  grep "Music" * | wc -w
+  609  ls
+  610  grep "Music" * | wc -l > counts.txt
+  611  grep "Music" * | wc -w > counts.txt
+  612  vi counts.txt
+  613  vi counts/txt
+  614  grep "Music" * | wc -l > counts.txt
+  615  grep "Music" * | wc -w > counts.txt
+  616  vi counts.txt
+  617  grep "Music" * | wc -l > counts.txt
+  618  grep "Music" * | wc -w > counts.txt
+  619  vi counts.txt
+  620  grep "Music" * | wc -l > counts.txt
+  621  grep "Music" * | wc -w >> counts.txt
+  622  vi counts.txt
+  623  rm -rf counts.txt
+  624  > cmds.log
+  625  cd cs131
+  626  cd Worksheet2
+  627  ls
+  628  rm -rf 'Global YouTube Statistics.csv'
+  629  ls
+  630  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  631  ls
+  632  grep "United States" 'Global YouTube Statistics.csv'
+  633  grep "Music" 'Global YouTube Statistics.csv'
+  634  touch counts.txt
+  635  grep "Music" 'Global YouTube Statistics.csv' | wc -l > counts.txt
+  636  grep "Music" 'Global YouTube Statistics.csv' | wc -w >> counts.txt
+  637  vi counts.txt
+  638  history > cmds.log
