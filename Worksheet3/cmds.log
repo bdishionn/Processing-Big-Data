@@ -1,0 +1,13 @@
+ 1063  history
+ 1064  vi history
+ 1065  ls
+ 1066  history
+ 1067  vi ws3.txt
+ 1068  rm -rf ws3.txt highestMonthlyEarnings.csv
+ 1069  rm -rf countriesList.csv
+ 1070  touch ws3.txt
+ 1071  touch countriesList.csv
+ 1072  touch highestMonthlyEarnings.csv
+ 1073  grep -E "[0-9]+,[^,]+,[^,]+,[^,]+,[^,]+,[^,]+,[^,]+(,United States,|,United Kingdom,|,India,)" 'Global YouTube Statistics.csv' > countriesList.csv && sort -t ',' -k 16,16nr countriesList.csv > highestMonthlyEarnings.csv && { grep "United States" highestMonthlyEarnings.csv | head -n 1 | cut -d ',' -f 2; grep "United Kingdom" highestMonthlyEarnings.csv | head -n 1 | cut -d ',' -f 2; grep "India" highestMonthlyEarnings.csv | head -n 1 | cut -d ',' -f 2; } > ws3.txt && { grep "Sports" 'Global YouTube Statistics.csv' | sort -t ',' -k 3,3nr | head -n 1 | cut -d ',' -f 2; grep "Entertainment" 'Global YouTube Statistics.csv' | sort -t ',' -k 3,3nr | head -n 1 | cut -d ',' -f 2; grep "Education" 'Global YouTube Statistics.csv' | sort -t ',' -k 3,3nr | head -n 1 | cut -d ',' -f 2; } >> ws3.txt
+ 1074  vi ws3.txt
+ 1075  history | tail -n 13 > cmds.log
