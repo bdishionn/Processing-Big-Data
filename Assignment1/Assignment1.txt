@@ -1,0 +1,65 @@
+Script started, file is cmds.log
+bash-4.4$ echo $SHELL
+/bin/bash -----> THIS IS THE OUTPUT FOR 'echo $SHELL' -Question 2
+
+bash-4.4$ echo $HOME
+/mnt/scratch/FA23_CS131_Ashish/brendanf23 ----> THIS IS THE OUTPUT FOR 'echo $HOME' -Question 2
+
+bash-4.4$ id
+uid=1117(brendanf23) gid=1117(brendanf23) groups=1117(brendanf23),77(S77) ---> THIS IS THE OUTPUT WHEN WE USE THE COMMAND 'id'. I belong to groups 1117 - Question 3
+
+bash-4.4$ mkdir myDir - Question 4 (creating empty Dir. myDir
+bash-4.4$ chmod u-w myDir -Remove write permission for myself
+bash-4.4$ ls
+bash-4.4$ ls -l
+total 20
+dr-xrwxr-x 2 brendanf23 brendanf23 4096 Sep 23 00:21 myDir ----> output for ls-l of myDir
+bash-4.4$ cd myDir
+bash-4.4$ ls -this command works, but there is nothing else to display
+bash-4.4$ ls -l -this commands works, but there is nothing to display
+total 0
+bash-4.4$ touch a.txt
+'cannot create file' -IF we try to add a new file, its not possible, and we get a message like this
+
+bash-4.4$ mkdir myDir2 myDir3 -Question 5, create two new directories
+bash-4.4$ cd myDir2
+bash-4.4$ touch myFile.txt
+
+After the first command, the 2nd and 3rd commands creates a file called myFile.txt inside myDir2 - Question 6
+bash-4.4$ mv myFile.txt ../myDir3/ - moves the file from myDir2 to myDir3
+bash-4.4$ cd myDir3
+bash-4.4$ ls
+myFile.txt - These commands confirm that it was moved
+
+bash-4.4$ free -m -Question 6
+              total        used        free      shared  buff/cache   available
+Mem:          71367       12413        1081        1273       57872       55518
+Swap:          4119        1057        3062
+
+bash-4.4$ cat /etc/os-release -Question 9
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6" - OPERATING SYSTEM VERSION ID AFTER COMMAND IS EXECUTED
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+bash-4.4$ cat /etc/os-release - Question 9  THIS COMMAND ALSO displays just the OS version id
+VERSION_ID="8.6"
+
+bash-4.4$ ls -l /etc/os-release-Question 10, THE COMMAND /etc/os-release checks the OS version id, so with ls -l in front we check the permissions of all users
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release -THIS IS THE OUTPUT LINE WITH PERMISSIONS FOR EVERYONE
+bash-4.4$ exit
+exit
+Script done, file is cmds.log

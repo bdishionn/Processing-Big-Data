@@ -1,0 +1,61 @@
+Script started on 2023-09-23 00:55:57-04:00
+bash-4.4$ echo $SHELL QUESTION 2
+/bin/bash
+bash-4.4$ echo $HOME QUESTION 2
+/mnt/scratch/FA23_CS131_Ashish/brendanf23
+bash-4.4$ id QUESTION 3
+uid=1117(brendanf23) gid=1117(brendanf23) groups=1117(brendanf23),77(S77)
+bash-4.4$ mkdir myDir QUESTION 4
+bash-4.4$ chmod u-w myDir
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3	myDir4
+bash-4.4$ ls -l
+total 20
+
+bash-4.4$ mkdir myDir2 myDir3 -QUESTION 5
+bash-4.4$ cd myDir2
+bash-4.4$ touch myFile.txt -QUESTIOn 6
+bash-4.4$ my my[K[K[K[Kv myFile1.txt ..?my[K[K[K/myDir6/
+bash-4.4$ cd ..
+bash-4.4$ cd ../myDir3/[K
+bash: cd: ../myDir3: No such file or directory
+bash-4.4$ cd ../,[KmyDir4[K6
+bash: cd: ../myDir6: No such file or directory
+bash-4.4$ cd[K[Kls
+Assignment1.txt  myDir	myDir2	myDir3	myDir4	myDir5	myDir6
+bash-4.4$ cd myDir6
+bash-4.4$ ls
+myFile1.txt
+bash-4.4$ cd ..
+bash-4.4$ cd myDir5
+bash-4.4$ ls
+bash-4.4$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       12413        1081        1273       57872       55518
+Swap:          4119        1057        3062
+bash-4.4$ cat /etc/os-release -QUESTION 9
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+bash-4.4$ cat /etc/os-relr[Kease \[K| grep "VERSOP[K[KION_ID"
+VERSION_ID="8.6"
+bash-4.4$ ls -l /etc/os-release -QUESTION 10
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+bash-4.4$ exit
+exit
+
+Script done on 2023-09-23 01:07:12-04:00
