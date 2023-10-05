@@ -1,0 +1,213 @@
+Script started on 2023-10-05 00:39:52-04:00
+bash-4.4$ alias l='ls -ltr'
+bash-4.4$ alias w='ls -l | wc -l'
+bash-4.4$ source ~/.bashrc
+bash-4.4$ l
+total 0
+-rw-rw-r-- 1 brendanf23 brendanf23 0 Oct  5 00:39 ws4.txt
+bash-4.4$ w
+2
+bash-4.4$ ls -ltr
+total 0
+-rw-rw-r-- 1 brendanf23 brendanf23 0 Oct  5 00:39 ws4.txt
+bash-4.4$ touch awesome.txt
+bash-4.4$ w
+3
+bash-4.4$ l
+total 0
+-rw-rw-r-- 1 brendanf23 brendanf23 0 Oct  5 00:39 ws4.txt
+-rw-rw-r-- 1 brendanf23 brendanf23 0 Oct  5 00:47 awesome.txt
+bash-4.4$ mkdir Subscribers
+bash-4.4$ wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTTube%20Statistics.csv
+--2023-10-05 00:51:14--  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: ‘Global YouTube Statistics.csv’
+
+           Global YouT   0%[                            ]       0  --.-KB/s               Global YouTube Statist 100%[===========================>] 195.58K  --.-KB/s    in 0.008s  
+
+2023-10-05 00:51:14 (22.5 MB/s) - ‘Global YouTube Statistics.csv’ saved [200279/200279]
+
+bash-4.4$ ls
+ awesome.txt  'Global YouTube Statistics.csv'   Subscribers   ws4.txt
+bash-4.4$ rm -rf ^C
+bash-4.4$ rm -rf 'Global YouTube Statistics.csv'
+bash-4.4$ cd Subscribers
+bash-4.4$ cd Subscribers[C[C[C[C[C[C[C[C[C[Crm -rf 'Global YouTube Statistics.csv'[C[C[C[C[C[C[C[C[C[Cls[Kwget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTTube%20Statistics.csv
+--2023-10-05 00:52:03--  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: ‘Global YouTube Statistics.csv’
+
+           Global YouT   0%[                            ]       0  --.-KB/s               Global YouTube Statist 100%[===========================>] 195.58K  --.-KB/s    in 0.008s  
+
+2023-10-05 00:52:03 (22.9 MB/s) - ‘Global YouTube Statistics.csv’ saved [200279/200279]
+
+bash-4.4$ ls
+'Global YouTube Statistics.csv'
+bash-4.4$ vi 'Global YouTube Statistics.csv'
+bash-4.4$ grep Indi[K[K[K[K:[K"d[KIndia" 'Global YouTube Statistics.csv' | awk -F',' "[K'{print #[K$3}' > Worksheet 4/Subscribers/UnitedS[K_States.txt
+bash: Worksheet4/Subscribers/United_States.txt: No such file or directory
+bash-4.4$ touch Ui[Knited_s[KStates.txt India.txt
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   India.txt   United_States.txt
+bash-4.4$ lstouch United_States.txt India.txt[C[C[C[C[C[C[C[C[C[Cgrep "India" 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' > Worksheet44/Subscribers/United_States.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+bash-4.4$ grep "United States" awk -F','[K[K[K[K[K[K[K[K[K^C
+bash-4.4$ grep "United States" 'Global YouTube Statistics.csv' | awk -f',' '{print $3}' > Unnited_States.txt[AIndia" 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' > India.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUnited States" 'Global YouTube Statistics.csv' | awk -f',' '{print $3}' > Unnited_States.txt[AIndia" 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' > India.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUnited States" 'Global YouTube Statistics.csv' | awk -f',' '{print $3}' > Unnited_States.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C',' '{print $3}' > Uni[1Pted_States.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CF',' '{print $3}' > United_States.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash-4.4$ vi United_States.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;61r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[61;1H"United_States.txt" 302L, 2713C[1;1H170000000
+166000000
+162000000
+98900000
+96000000
+75000000
+68200000
+59500000
+59500000
+56900000
+56400000
+52900000
+52700000
+52200000
+47900000
+46600000
+44200000
+42400000
+42400000
+40900000
+39200000
+38600000
+38200000
+38200000
+38000000
+37600000
+36700000
+36600000
+36300000
+35200000
+35200000
+34900000
+33700000
+33600000
+32800000
+32700000
+31700000
+31700000
+31600000
+31600000
+31200000
+30700000
+30700000
+30400000
+30200000
+30100000
+29600000
+29200000
+28400000
+28200000
+27500000
+27500000
+27300000
+27000000
+26700000
+26700000
+26500000
+26400000
+26200000
+26100000[1;1H[?25h[?25l[61;1H[K[61;1H:[?2004h[?25hq![?25l[?2004l[61;1H[K[61;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi India [K.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;61r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[61;1H"India.txt" 175L, 1577C[1;1H245000000
+159000000
+96700000
+83000000
+70500000
+65900000
+65600000
+64600000
+61000000
+59300000
+58000000
+57600000
+57200000
+54600000
+53300000
+47400000
+46600000
+45500000
+42500000
+41400000
+39200000
+38300000
+38200000
+37200000
+37000000
+36600000
+35500000
+35500000
+35400000
+34300000
+34000000
+33500000
+33500000
+33400000
+32700000
+32000000
+31700000
+31700000
+30700000
+30500000
+29800000
+28900000
+28500000
+28400000
+28300000
+28200000
+27300000
+27100000
+26400000
+26300000
+25200000
+24300000
+24200000
+23400000
+23100000
+23100000
+23000000
+23000000
+22900000
+22600000[1;1H[?25h[?25l[61;1H[K[61;1H:[?2004h[?25hq![?25l[?2004l[61;1H[K[61;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi 'Global YouTube Statistics.csv'
+bash-4.4$ numberof[K[K)of)[K[K[K[K_of_lines_US=$(wc -l < United S[K[K_States.txt)
+bash-4.4$ number_of_lines_IN[Kndia=$(wc -l < India.tzt[K[Kxt)
+bash-4.4$ echo number_of_lines_US
+number_of_lines_US
+bash-4.4$ echo `[K$number_Of[K[Kof_lines_)[KUS
+302
+bash-4.4$ ls[K[Kcalculagteg [K[K[K[K[Kte_sum() {
+> sum =[K[K=0
+> while read -r line; do
+> sum=$((sum + line))
+> done < "$1"
+> echo "$sum[K[Kum"
+> }
+bash-4.4$ s[KUS_total_sum=$(calculate_sum United [K_States.txt)
+bash-4.4$ India_total_sum=$(calculate_sum India.txt)
+bash-4.4$ echo [K[K[K[K[Kavg_S[Ksubs_US=$((US_total_sukm[K[Km / number_of_lines_US))
+bash-4.4$ avg_subs_India=$(( [KIndia_total_sum / number_of_lines_India))
+bash-4.4$ echo $avg_subs_Us[KS
+23089735
+bash-4.4$ echo $avg_subs_India
+25596000
+bash-4.4$ vi echo $avg_subs_India[3PUS[C[C[C[C[C[C[C[C[C[Cavg_subs_India=$((India_total_sum / number_of_lines_India))[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9PUS=$((US_total_sum / number_of_lines_US))[C[C[C[C[C[C[C[C[C[C[8PIndia_total_sum=$(calculate_sum India.txt)[C[C[C[C[C[C[C[C[C[CUS_total_sum=$(calculate_sum United_States.txt)[C[C[C[C[C[C[C[C[C[Ccalculate_sum() { sum=0; while read -r line; do sum=$((sum + line)); done < "$1";  echo "$sum"; }[Aecho $number_of_lines_US[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pnumber_of_lines_US[C[C[C[C[C[C[C[C[C[Cnumber_of_lines_India=$(wc -l < India.txt)US=$(wc -l < United_States.txt)[C[C[C[C[C[C[C[C[C[C[28Ptouch ws4_means.txt[C[C[C[C[C[C[C[C[C[Cvi 'Global YouTube Statistics.csv'[C[C[C[C[C[C[C[C[C[C[C[C[CIndia.txt[K'Global YouTube Statistics.csv'
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;61r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[61;1H"Global YouTube Statistics.csv" [converted][dos] 996L, 203117C[1;1Hrank,Youtuber,subscribers,video views,category,Title,uploads,Country,Abbreviation,channel_tt[2;1Hype,video_views_rank,country_rank,channel_type_rank,video_views_for_the_last_30_days,lowestt[3;1H_monthly_earnings,highest_monthly_earnings,lowest_yearly_earnings,highest_yearly_earnings,ss[4;1Hubscribers_for_last_30_days,created_year,created_month,created_date,Gross tertiary educatioo[5;1Hn enrollment (%),Population,Unemployment rate,Urban_population,Latitude,Longitude
+bash-4.4$ echo :[K"Average # of subs in US: $avg_subs_US" >> ws4_means.txt
+bash-4.4$ echo :[K"Average # of subs in India: $avg_sus[Kbs_India" >> ws4_means.txt
+bash-4.4$ vi ws4_means.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;61r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[61;1H"ws4_means.txt" 2L, 71C[1;1HAverage # of subs in US: 23089735
+Average # of subs in India: 25596000
+Average # of subs in India: 25596000
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi United States.[K[K[K[K[K[K[K[K_States.txt
+Script done on 2023-10-05 01:32:10-04:00
