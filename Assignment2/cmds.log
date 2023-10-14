@@ -7,59 +7,26 @@
   917  cd Assignment2
   948  touch Assignment2.txt
 
-  949  find /etc -type f > one.txt 2> two.txt  ------------- > COMMAND USED for QUESTION 1
+  949  find /etc -type f > one.txt 2> two.txt  ------------- > COMMAND USED for QUESTION #1
 
   950  ls
-  951  cat one.txt >> Assignment2.txt
-  952  vi Assignment2.txt
-  953  cat two.txt >> Assignment2.txt
-  954  vi Assignment2.txt
-  955  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
-  956  ls
-  957  vi 'Global YouTube Statistics.csv'
-  958  cut -d ' ' -f 20,19 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr >> Assignment2.txt
-  959  vi Assignment2.txt
-  960  rm -rf Assignment2.txt
-  961  vi 'Global YouTube Statistics.csv'
-  962  touch Assignment2.txt
-  963  cut -d ',' -f 20,19 'Global YouTuber Statistics.csv' | sort | uniq -c | sort -nr >> Assignment2.txt
-  964  cut -d ',' -f 20,19 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr >> Assignment2.txt
-  965  vi Assignment2.txt
-  966  vi 'Global YouTube Statistics.csv'
-  967  cut -d ',' -f 21,20 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
-  968  vi 'Global YouTube Statistics.csv'
-  969  vi Assignment2.txt
-  970  vi 'Global YouTube Statistics.csv'
-  971  cut -d ',' -f 18, 19 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
   972  cut -d ',' -f 18,19 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
   973  vi Assignment2.txt
-  974  rm -rf Assignmnet2.txt
+  974  rm -rf Assignment2.txt
   975  touch Assignment2.txt
-  976  cut -d ',' -f 18,19 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
-  977  vi Assignment2.txt
   978  vi 'Global YouTube Statistics.csv'
   979  rm -rf Assignmnet2.txt
   980  touch Assignment2.txt
-  981  cut -d ',' -f 19,20 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
-  982  vi Assignment2.txt
-  983  cd cs131
-  984  cd Assignment2
-  985  cut -d ',' -f 19,20 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
-  986  vi Assignment2.txt
   987  cut -d ',' -f 19,20 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
   988  vi Assignment2.txt
   989  rm -rf Assignmnet2.txt
   990  ls
-  991  rm -rf Assignment2.txt
-  992  rm -rf one.txt two.txt
-  993  ls
   994  touch Assignmnet2.txt
-  995  rm -rf Assignmnet2.txt
-  996  touch Assignment2.txt
   997  ls
-  998  find /etc -type f > one.txt 2> two.txt
-  999  cat one.txt
- 1000  cat two.txt
+
+  999  cat one.txt ---------------> COMMAND USED for QUESTION #1 part B
+ 1000  cat two.txt ---------------> COMMAND USED for QUESTION #1 part B
+
  1001  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci
  1002  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
 
@@ -80,14 +47,6 @@
 
  1013  ps aux  --------------------------- > COMMAND USED for QUESTION #6
 
- 1014  touch ps.aux.command.txt
- 1015  ps aux >> ps.aux.command.txt
- 1016  vi ps.command.aux.txt
- 1017  ls
- 1018  rm -rf ps.command.aux.txt
- 1019  vi ps.aux.command.txt
- 1020  ls
- 1021  rm -rf ps.aux.command.txt
  1022  touch ps.aux.command.txt
  1023  ps aux >> ps.aux.command.txt
  1024  vi Assignment2.txt
