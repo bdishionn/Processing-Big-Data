@@ -1,0 +1,250 @@
+  781  ls
+  782  vi cool.txt
+  783  ls
+  784  vi cool.txt
+  785  ls
+  786  vi cool.txt
+  787  rm -rm cool.txt.swp
+  788  rm -rf cool.txt
+  789  rm-rf cool.txt.swp
+  790  rm - rf cool.txt.swp
+  791  rm -rf cool.txt.swp
+  792  touch cool.tzt
+  793  vi cool.txt
+  794  cd cs131
+  795  ls
+  796  cd Worksheet1
+  797  tail -10 Worksheet1
+  798  tail -10 index.html
+  799  tail -n 10 index.html
+  800  tail -100 index.html
+  801  tail -100 'Global YouTube Statistics.csv' 
+  802  cd ..
+  803  tail -100 'Global YouTube Statistics.csv' 
+  804  mkdir cool.txt
+  805  vi cool.txt
+  806  rm -rf cool.txt
+  807  touch cool.txt
+  808  vi cool.txt
+  809  cd cs131
+  810  ls
+  811  rm -rf cool.txt
+  812  touch nice.txt
+  813  vi nice.txt
+  814  wc -l nice.txt
+  815  wc -w nice.txt
+  816  echo "me"
+  817  pwd
+  818  echo pwd
+  819  echo `pwd`
+  820  echo "pwd"
+  821  echo HOME
+  822  echo $HOME
+  823  echo $SHELL
+  824  printenv
+  825  `pwd`
+  826  echo pwd
+  827  echo `pwd`
+  828  cd cs131
+  829  echo "$HOME"
+  830  echo "cool"
+  831  ls .[b]ashrc
+  832  ls .[ba]ashrc
+  833  ls .[!c]ashrc
+  834  alias l = 'ls -ltr'
+  835  alias l='ls -ltr'
+  836  alias w='ls -l | wc -l'
+  837  source ~/.bashrc
+  838  l
+  839  w
+  840  ls -ltr
+  841  touch awesome.txt
+  842  w
+  843  l
+  844  mkdir Subscribers
+  845  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  846  ls
+  847  rm -rf 'Global YouTube Statistics.csv'
+  848  cd Subscribers
+  849  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  850  ls
+  851  vi 'Global YouTube Statistics.csv'
+  852  grep "India" 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' > Worksheet4/Subscribers/United_States.txt
+  853  touch United_States.txt India.txt
+  854  ls
+  855  grep "India" 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' > India.txt
+  856  grep "United States" 'Global YouTube Statistics.csv' | awk -f',' '{print $3}' > United_States.txt
+  857  grep "United States" 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' > United_States.txt
+  858  vi United_States.txt
+  859  vi India.txt
+  860  vi 'Global YouTube Statistics.csv'
+  861  touch ws4_means.txt
+  862  number_of_lines_US=$(wc -l < United_States.txt)
+  863  number_of_lines_India=$(wc -l < India.txt)
+  864  echo number_of_lines_US
+  865  echo $number_of_lines_US
+  866  calculate_sum() { sum=0; while read -r line; do sum=$((sum + line)); done < "$1"; echo "$sum"; }
+  867  US_total_sum=$(calculate_sum United_States.txt)
+  868  India_total_sum=$(calculate_sum India.txt)
+  869  avg_subs_US=$((US_total_sum / number_of_lines_US))
+  870  avg_subs_India=$((India_total_sum / number_of_lines_India))
+  871  echo $avg_subs_US
+  872  echo $avg_subs_India
+  873  vi 'Global YouTube Statistics.csv'
+  874  ls
+  875  echo "Average # of subs in US: $avg_subs_US" >> ws4_means.txt
+  876  echo "Average # of subs in India: $avg_subs_India" >> ws4_means.txt
+  877  vi ws4_means.txt
+  878  vi United_States.txt
+  879  vi India.txt
+  880  cd cs131
+  881  mkdir Worksheet4
+  882  cd Worksheet4
+  883  touch Worksheet4/.placeholder
+  884  ls
+  885  touch Worksheet4/.placeholder
+  886  touch Worksheet4
+  887  ls
+  888  rm -rf Worksheet4
+  889  ls
+  890  cd..
+  891  cd ..
+  892  touch Worksheet4/.placeholder
+  893  ls
+  894  git add Worksheet4/.placeholder
+  895  git commit -m "first commit - empty directory"
+  896  git push origin master
+  897  cd Worksheet4
+  898  ls
+  899  script ws4.txt
+  900  ls
+  901  vi ws4.txt
+  902  git add ws4.txt Subscribers
+  903  git commit -m "ws4.txt and Subscribers directory"
+  904  git push origin master
+  905  git add India.txt United_States.txt ws4_means.txt
+  906  cd Subscrubers
+  907  cd Subscribers
+  908  git add India.txt United_States.txt ws4_means.txt
+  909  git commit -m "Recommitting every file to /Worksheet4/ directory"
+  910  cd cs131
+  911  mkdir Assignment2
+  912  touch Assignment2/.placeholder
+  913  git commit -m "1st commit for Assignment 1"
+  914  git add Assignment2/.placeholder
+  915  git commit -m "1st commit, empty assignment2 directory"
+  916  git push origin master
+  917  cd Assignment2
+  918  touch Assignment2.txt
+  919  find /etc -type f > one.txt 2 > two.txt
+  920  find /etc -type f >one.txt 2> two.txt >> Assignment2.txt
+  921  vi Assignment2.txt
+  922  rm -rf Assignment2.txt
+  923  touch Assignment2.txt
+  924  find /etc -type f > one.txt 2> two.txt >> Assignment2.txt
+  925  vi Assignment2.txt
+  926  cat one.txt >> Assignment2.txt
+  927  vi Assignment2.txt
+  928  cat two.txt >> Assignment2.txt
+  929  vi Assignment2.txt
+  930  cat one.txt >> Assignment2.txt
+  931  vi Assignment2.txt
+  932  cat two.txt >> Assignment2.txt
+  933  vi Assignment2.txt
+  934  rm -rf Assignment2.txt
+  935  ls
+  936  rm -rf one.txt two.txt
+  937  touch Assignment2.txt
+  938  ls
+  939  find /etc -type f > one.txt 2> two.txt >> Assignment2.txt
+  940  vi Assignment2.txt
+  941  vi one.txt
+  942  ls
+  943  vi two.txt
+  944  vi one.txt
+  945  rm -rf Assignment2.txt
+  946  ls
+  947  rm -rf one.txt two.txt
+  948  touch Assignment2.txt
+  949  find /etc -type f > one.txt 2> two.txt
+  950  ls
+  951  cat one.txt >> Assignment2.txt
+  952  vi Assignment2.txt
+  953  cat two.txt >> Assignment2.txt
+  954  vi Assignment2.txt
+  955  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  956  ls
+  957  vi 'Global YouTube Statistics.csv'
+  958  cut -d ' ' -f 20,19 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr >> Assignment2.txt
+  959  vi Assignment2.txt
+  960  rm -rf Assignment2.txt
+  961  vi 'Global YouTube Statistics.csv'
+  962  touch Assignment2.txt
+  963  cut -d ',' -f 20,19 'Global YouTuber Statistics.csv' | sort | uniq -c | sort -nr >> Assignment2.txt
+  964  cut -d ',' -f 20,19 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr >> Assignment2.txt
+  965  vi Assignment2.txt
+  966  vi 'Global YouTube Statistics.csv'
+  967  cut -d ',' -f 21,20 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
+  968  vi 'Global YouTube Statistics.csv'
+  969  vi Assignment2.txt
+  970  vi 'Global YouTube Statistics.csv'
+  971  cut -d ',' -f 18, 19 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
+  972  cut -d ',' -f 18,19 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
+  973  vi Assignment2.txt
+  974  rm -rf Assignmnet2.txt
+  975  touch Assignment2.txt
+  976  cut -d ',' -f 18,19 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
+  977  vi Assignment2.txt
+  978  vi 'Global YouTube Statistics.csv'
+  979  rm -rf Assignmnet2.txt
+  980  touch Assignment2.txt
+  981  cut -d ',' -f 19,20 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
+  982  vi Assignment2.txt
+  983  cd cs131
+  984  cd Assignment2
+  985  cut -d ',' -f 19,20 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
+  986  vi Assignment2.txt
+  987  cut -d ',' -f 19,20 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
+  988  vi Assignment2.txt
+  989  rm -rf Assignmnet2.txt
+  990  ls
+  991  rm -rf Assignment2.txt
+  992  rm -rf one.txt two.txt
+  993  ls
+  994  touch Assignmnet2.txt
+  995  rm -rf Assignmnet2.txt
+  996  touch Assignment2.txt
+  997  ls
+  998  find /etc -type f > one.txt 2> two.txt
+  999  cat one.txt
+ 1000  cat two.txt
+ 1001  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci
+ 1002  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
+ 1003  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3 >> Assignment2.txt
+ 1004  vi Assignment2.txt
+ 1005  ps -u your_username
+ 1006  ps -u brendanf23 >> Assignment2.txt
+ 1007  vi Assignment2.txt
+ 1008  vi file.txt
+ 1009  vi Assignment2.txt
+ 1010  ps aux | grep systemd
+ 1011  ps aux | grep systemd >> Assignment2.txt
+ 1012  vi Assignment2.txt
+ 1013  ps aux
+ 1014  touch ps.aux.command.txt
+ 1015  ps aux >> ps.aux.command.txt
+ 1016  vi ps.command.aux.txt
+ 1017  ls
+ 1018  rm -rf ps.command.aux.txt
+ 1019  vi ps.aux.command.txt
+ 1020  ls
+ 1021  rm -rf ps.aux.command.txt
+ 1022  touch ps.aux.command.txt
+ 1023  ps aux >> ps.aux.command.txt
+ 1024  vi Assignment2.txt
+ 1025  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
+ 1026   cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
+ 1027  cut -d',' -f21-20 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
+ 1028  vi Assignment2.txt
+ 1029  history > cmds.log
+ 1030  history | tail -n 250 > cmds.log

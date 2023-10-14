@@ -1,0 +1,99 @@
+1. find /etc -type f > one.txt 2> two.txt
+
+   a)
+      Essentially, we are using the 'find' command to find or search for files that are under the /etc directory. Because it's type f, we are searching for regular files. The standard
+      output of the find command is redirected into the file 'one.txt' and the standard error output is redirected into the file 'two.txt'. Simply, we are searching for regular files
+      in the /etc directory, capturing the list of errors in two.txt and listing the files we found in the /etc direc. in one.txt.
+   b) 
+     cat one.txt : this command will show all the regular files found under the /etc directory
+     cat two.txt : this command will show all standard error output of the find command
+
+2.
+      Mar,2006 with 35 channels
+      Jul,2014 with 20 channels
+      Aug,2014 with 16 channels
+
+      Commands Used:  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
+     
+      Commands Explained: The cut command removes section from each files of the line, our delimiter is a comma, and we are selecting fields 20-21, because these fields that contain the      year and date which we need. The sort command sorts the lines of the text file in ascending order. The uniq command removes duplicate lines, -ci counts how many times each line
+      occured and is case-insensitive. The sort -nr command sorts the output of the previous uniq command and sorts it numerically and reverses its order. Head -3 displays the top 3. 
+
+3. Command used: ps -u brendanf23 >> Assignment2.txt
+
+    PID TTY          TIME CMD
+3823342 ?        00:00:00 systemd
+3823344 ?        00:00:00 (sd-pam)
+3823350 ?        00:00:00 sshd
+3823354 pts/77   00:00:00 bash
+3832821 pts/77   00:00:00 ps
+
+4.
+ 
+   a)
+     vi file.txt
+
+   b) 
+     PID TTY          TIME CMD
+     3823342 ?        00:00:00 systemd
+     3823344 ?        00:00:00 (sd-pam)
+     3823350 ?        00:00:00 sshd
+     3823354 pts/77   00:00:00 bash
+     3833755 ?        00:00:00 sshd
+     3833758 pts/75   00:00:00 bash
+     3834695 pts/77   00:00:00 vim
+     3835515 pts/75   00:00:00 ps
+
+     Here we notice that there is another bash and sshd. It also shows the process ID for vim, which is 3834695
+
+     c) and d) 
+       After doing these steps, we will notice that the process ID for vim has disappeared completely. The output should be the same as Q3 once we close the vi editor in the other
+       terminal, otherwise if we have another terminal open which is editing a file using vi, then we can view the vim ID.
+
+5.
+
+Command Used: ps aux | grep systemd >> Assignment2.txt
+
+The init process is the first process that is started by the kernel when a system boots up. The process id for init process is 1, which is also the root user.
+   
+root           1  0.3  0.0 178624 18368 ?        Ss   Oct05  44:12 /usr/lib/systemd/systemd --switched-root --system --deserialize 17
+root        2978  0.0  0.3 356608 286144 ?       Ss   Oct05   6:20 /usr/lib/systemd/systemd-journald
+root        3027  0.0  0.0  55936 14400 ?        Ss   Oct05   0:01 /usr/lib/systemd/systemd-udevd
+dbus        3634  0.3  0.0  36864 12480 ?        Ss   Oct05  46:19 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        3679  0.0  0.0  35392 13760 ?        Ss   Oct05   4:12 /usr/lib/systemd/systemd-logind
+malexin    13840  0.0  0.0  28736 15168 ?        Ss   Oct05   5:18 /usr/lib/systemd/systemd --user
+trinhvi+   23207  0.0  0.0  28736 15232 ?        Ss   Oct05   4:11 /usr/lib/systemd/systemd --user
+ramirez+   28563  0.0  0.0  28736 15168 ?        Ss   Oct05   5:24 /usr/lib/systemd/systemd --user
+billand+   29653  0.0  0.0  28736 15168 ?        Ss   Oct05   4:11 /usr/lib/systemd/systemd --user
+zazakha+   34438  0.0  0.0  28736 15168 ?        Ss   Oct05   4:11 /usr/lib/systemd/systemd --user
+chenkyle   42536  0.0  0.0  28736 15168 ?        Ss   Oct05   4:14 /usr/lib/systemd/systemd --user
+jianjam+   45515  0.0  0.0  28736 15168 ?        Ss   Oct05   5:38 /usr/lib/systemd/systemd --user
+niansean   58391  0.0  0.0  28736 15168 ?        Ss   Oct05   4:17 /usr/lib/systemd/systemd --user
+qianbri+  401663  0.0  0.0  28736 15168 ?        Ss   Oct05   5:35 /usr/lib/systemd/systemd --user
+tawdega+  597176  0.0  0.0  28736 15168 ?        Ss   Oct05   4:16 /usr/lib/systemd/systemd --user
+taigario  624836  0.0  0.0  28736 15168 ?        Ss   Oct05   4:16 /usr/lib/systemd/systemd --user
+reyesaz+  629993  0.0  0.0  28736 15168 ?        Ss   Oct05   4:16 /usr/lib/systemd/systemd --user
+bhogalg+  635463  0.0  0.0  28736 15168 ?        Ss   Oct06   4:17 /usr/lib/systemd/systemd --user
+huangan+  635881  0.0  0.0  28736 15168 ?        Ss   Oct06   4:22 /usr/lib/systemd/systemd --user
+sharmaa+  645070  0.0  0.0  28736 15168 ?        Ss   Oct06   4:20 /usr/lib/systemd/systemd --user
+nguyent+  661051  0.0  0.0  28736 15168 ?        Ss   Oct06   4:37 /usr/lib/systemd/systemd --user
+tangnic+  778500  0.0  0.0  28736 15232 ?        Ss   Oct11   1:34 /usr/lib/systemd/systemd --user
+ahmedam+  881307  0.0  0.0  28736 15168 ?        Ss   Oct09   2:25 /usr/lib/systemd/systemd --user
+ashishf+  939916  0.0  0.0  28736 15168 ?        Ss   Oct09   2:18 /usr/lib/systemd/systemd --user
+samuelf+  946177  0.0  0.0  28736 15168 ?        Ss   Oct09   2:46 /usr/lib/systemd/systemd --user
+jewonf23  946380  0.0  0.0  28736 15168 ?        Ss   Oct09   2:47 /usr/lib/systemd/systemd --user
+kidanee+ 1162453  0.0  0.0  28736 15168 ?        Ss   Oct10   2:24 /usr/lib/systemd/systemd --user
+eschjer+ 3161122  0.0  0.0  28736 15168 ?        Ss   13:07   0:15 /usr/lib/systemd/systemd --user
+digheam+ 3179299  0.0  0.0  28800 15232 ?        Ss   13:34   0:15 /usr/lib/systemd/systemd --user
+ledavid  3580729  0.0  0.0  28736 15232 ?        Ss   Oct10   2:05 /usr/lib/systemd/systemd --user
+rikkif23 3734177  0.0  0.0  28672 14912 ?        Ss   19:52   0:05 /usr/lib/systemd/systemd --user
+thif23   3805734  0.0  0.0  28672 14912 ?        Ss   21:33   0:01 /usr/lib/systemd/systemd --user
+stevenf+ 3813219  0.0  0.0  28672 14912 ?        Ss   21:44   0:01 /usr/lib/systemd/systemd --user
+rahulf23 3820551  0.0  0.0  28672 14912 ?        Ss   21:54   0:01 /usr/lib/systemd/systemd --user
+brendan+ 3823342  0.0  0.0  28672 14848 ?        Ss   21:58   0:00 /usr/lib/systemd/systemd --user
+kobef23  3838064  0.0  0.0  28672 14848 ?        Ss   22:19   0:00 /usr/lib/systemd/systemd --user
+brendan+ 3841249  0.0  0.0   8320  1792 pts/77   S+   22:24   0:00 grep --color=auto systemd
+phanste+ 4055511  0.0  0.0  28736 15232 ?        Ss   Oct11   2:00 /usr/lib/systemd/systemd --user
+yacoubr+ 4137443  0.0  0.0  28736 15168 ?        Ss   Oct11   1:42 /usr/lib/systemd/systemd --user
+
+6. The ps aux command displays a list of currently running processes. The 'ps' part itself stands for process status, which provides info about active processes. The 'aux' part shows
+   all the processes on your system, and also the processes of other users. In the ps.aux.command.txt file, all output for the command will be listed there since it is lengthy.
