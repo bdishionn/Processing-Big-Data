@@ -9,9 +9,9 @@
      cat two.txt : this command will show all standard error output of the find command
 
 2.
-      Mar,2006 with 35 channels
-      Jul,2014 with 20 channels
-      Aug,2014 with 16 channels
+      Mar,2006 with 15 channels
+      Jul,2014 with 13 channels
+      Aug,2014 with 12 channels
 
       Commands Used:  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
      
