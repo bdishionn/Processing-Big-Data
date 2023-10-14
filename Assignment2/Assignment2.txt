@@ -15,8 +15,14 @@
 
       Commands Used:  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
      
-      Commands Explained: The cut command removes section from each files of the line, our delimiter is a comma, and we are selecting fields 20-21, because these fields that contain the      year and date which we need. The sort command sorts the lines of the text file in ascending order. The uniq command removes duplicate lines, -ci counts how many times each line
-      occured and is case-insensitive. The sort -nr command sorts the output of the previous uniq command and sorts it numerically and reverses its order. Head -3 displays the top 3. If you do not include the last two pipes which are sort -nr and head -3, you can then count how many times each of these dates actually occured if the command is redirected into a file, and since you already know the top 3 dates from sort-nr and head -3, you should know which top 3 dates to count in the file.
+      Commands Explained: The cut command removes section from each files of the line, our delimiter is a comma, 
+and we are selecting fields 20-21, because these fields that contain the year and date which we need. 
+The sort command sorts the lines of the text file in ascending order. The uniq command removes duplicate lines, 
+-ci counts how many times each line occured and is case-insensitive. The sort -nr command sorts the output of the 
+previous uniq command and sorts it numerically and reverses its order. Head -3 displays the top 3. If you do not 
+include the last two pipes which are sort -nr and head -3, you can then count how many times each of these dates 
+actually occured if the command is redirected into a file, and since you already know the top 3 dates from sort-nr 
+and head -3, you should know which top 3 dates to count in the file.
 
 3. Command used: ps -u brendanf23 >> Assignment2.txt
 
