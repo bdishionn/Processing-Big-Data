@@ -1,4 +1,3 @@
-
   911  mkdir Assignment2
   912  touch Assignment2/.placeholder
   913  git commit -m "1st commit for Assignment 1"
