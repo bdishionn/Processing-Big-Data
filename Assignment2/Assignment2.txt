@@ -1,22 +1,29 @@
 1. find /etc -type f > one.txt 2> two.txt
 
    a)
-      Essentially, we are using the 'find' command to find or search for files that are under the /etc directory. Because it's type f, we are searching for regular files. The standard
-      output of the find command is redirected into the file 'one.txt' and the standard error output is redirected into the file 'two.txt'. Simply, we are searching for regular files
-      in the /etc directory, capturing the list of errors in two.txt and listing the files we found in the /etc direc. in one.txt.
+      Essentially, we are using the 'find' command to find or search for files that are under the /etc directory. 
+      Because it's type f, we are searching for regular files. The standard output of the find command is redirected 
+      into the file 'one.txt' and the standard error output is redirected into the file 'two.txt'. Simply, we are 
+      searching for regular files in the /etc directory, capturing the list of errors in two.txt and listing the files 
+      we found in the /etc direc. in one.txt.
    b) 
      cat one.txt : this command will show all the regular files found under the /etc directory
      cat two.txt : this command will show all standard error output of the find command
 
 2.
-      Mar,2006 with 35 channels
-      Jul,2014 with 20 channels
-      Aug,2014 with 16 channels
+      Mar,2006 with 15 channels
+      Jul,2014 with 13 channels
+      Aug,2014 with 12 channels
 
       Commands Used:  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
      
-      Commands Explained: The cut command removes section from each files of the line, our delimiter is a comma, and we are selecting fields 20-21, because these fields that contain the      year and date which we need. The sort command sorts the lines of the text file in ascending order. The uniq command removes duplicate lines, -ci counts how many times each line
-      occured and is case-insensitive. The sort -nr command sorts the output of the previous uniq command and sorts it numerically and reverses its order. Head -3 displays the top 3. 
+      Commands Explained: The cut command removes sections from each files of the line, our delimiter is a comma, 
+      and we are selecting fields 20-21, because these are the fields that contain the year and date which we need. 
+      The sort command sorts the lines of the text file in ascending order. The uniq command removes duplicate lines, 
+      -ci counts how many times each line occured and is case-insensitive. The sort -nr command sorts the output of the 
+      previous uniq command and sorts it numerically and reverses its order. Head -3 displays the top 3. If you do not 
+      include the last two pipes which are sort -nr and head -3, it will display all the dates and the number of times these
+      dates have occured, so the last two pipes are for convenience.
 
 3. Command used: ps -u brendanf23 >> Assignment2.txt
 
@@ -46,8 +53,9 @@
      Here we notice that there is another bash and sshd. It also shows the process ID for vim, which is 3834695
 
      c) and d) 
-       After doing these steps, we will notice that the process ID for vim has disappeared completely. The output should be the same as Q3 once we close the vi editor in the other
-       terminal, otherwise if we have another terminal open which is editing a file using vi, then we can view the vim ID.
+       After doing these steps, we will notice that the process ID for vim has disappeared completely. The output should be 
+       the same as Q3 once we close the vi editor in the other terminal, otherwise if we have another terminal open which is 
+       editing a file using vi, then we can view the vim ID.
 
 5.
 
