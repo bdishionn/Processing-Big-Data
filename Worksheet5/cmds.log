@@ -1,4 +1,3 @@
-
   985  mkdir Worksheet5
   986  touch Worksheet5/.placeholder
   988  git add Worksheet5/.placeholder
