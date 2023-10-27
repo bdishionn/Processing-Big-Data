@@ -1,0 +1,250 @@
+  875  touch Assignment2.txt
+  876  ls
+  877  find /etc -type f > one.txt 2> two.txt
+  878  cat one.txt
+  879  cat two.txt
+  880  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci
+  881  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
+  882  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3 >> Assignment2.txt
+  883  vi Assignment2.txt
+  884  ps -u your_username
+  885  ps -u brendanf23 >> Assignment2.txt
+  886  vi Assignment2.txt
+  887  vi file.txt
+  888  vi Assignment2.txt
+  889  ps aux | grep systemd
+  890  ps aux | grep systemd >> Assignment2.txt
+  891  vi Assignment2.txt
+  892  ps aux
+  893  touch ps.aux.command.txt
+  894  ps aux >> ps.aux.command.txt
+  895  vi ps.command.aux.txt
+  896  ls
+  897  rm -rf ps.command.aux.txt
+  898  vi ps.aux.command.txt
+  899  ls
+  900  rm -rf ps.aux.command.txt
+  901  touch ps.aux.command.txt
+  902  ps aux >> ps.aux.command.txt
+  903  vi Assignment2.txt
+  904  cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
+  905   cut -d',' -f20-21 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
+  906  cut -d',' -f21-20 'Global YouTube Statistics.csv' | sort | uniq -ci | sort -nr | head -3
+  907  vi Assignment2.txt
+  908  history > cmds.log
+  909  history | tail -n 250 > cmds.log
+  910  git add cmds.log Assignment2.txt one.txt two.txt ps.aux.command.txt
+  911  git status
+  912  git reset cmds.log
+  913  git status
+  914  git reset Assignment2.txt one.txt ps.aux.command.txt two.txt
+  915  git status
+  916  git add cmds.log
+  917  git add Assignment2.txt cmds.log one.txt two.txt
+  918  git commit -m "Committing files for Assignment2"
+  919  git add ps.aux.command.txt
+  920  git commit -m "Adding more files for Assignment2"
+  921  git push origin master
+  922  ls
+  923  cd cs131
+  924  vi shellscript
+  925  ./shellscript
+  926  chmod u+rx shellscript
+  927  ls -ltr shellscript
+  928  cat shellscript
+  929  ./shellscript
+  930  vi shellscript
+  931  ./shellscript
+  932  ls
+  933  rm -rf shellscript
+  934  ls
+  935  vi exampleScript
+  936  /.exampleScript
+  937  ./exampleScript
+  938  chmod u+x exampleScript
+  939  ./exampleScript
+  940  vi exampleScript
+  941  ./exampleScript
+  942  vi exampleScript
+  943  ./exampleScript
+  944  vi exampleScript
+  945  ./exampleScript
+  946  vi exampleScript
+  947  ./exampleScript
+  948  vi exampleScript
+  949  ./exampleScript
+  950  vi exampleScript
+  951  which sh
+  952  which bash
+  953  sh exmapleScript
+  954  sh exampleScript
+  955  vi newexampleScript
+  956  cat newexampleScript
+  957  sh newexampleScrpit
+  958  sh newExampleScript
+  959  sh newexampleScript
+  960  ls
+  961  rm -rf newexampleScript
+  962  ls
+  963  vi favDrinkScript
+  964  bash favDrinkScript DrPepper Pizza
+  965  vi favDrinkScript
+  966  bash favDrinkScript DrPepper Pizza
+  967  vi favDrinkScript
+  968  echo $?
+  969  ps | echo $?
+  970  vi favDrinkScript
+  971  bash favDrinkScript DrPepper Pizza
+  972  read X Y Z
+  973  echo $X
+  974  echo $Y
+  975  echo $Z
+  976  ready X Y Z
+  977  read X Y Z
+  978  echo $X
+  979  echo $Y
+  980  echo $Z
+  981  ls
+  982  vi favDrinkScript
+  983  cd cs131
+  984  ls
+  985  mkdir Worksheet5
+  986  touch Worksheet5/.placeholder
+  987  git add Worksheet/.placeholder
+  988  git add Worksheet5/.placeholder
+  989  git commit -m "First commit WS5, placeholder file which is empty"
+  990  git push origin master
+  991  git pull Worksheet5/.placeholder
+  992  git pull
+  993  git status
+  994  git pull orign master
+  995  ls
+  996  rm -rf Worksheet5/.placeholder
+  997  touch Worksheet5/.placeholder
+  998  git add Worksheet5./placeholder
+  999  git add Worhseet5/.placeholder
+ 1000  git add Worksheet5/.placeholder
+ 1001  git commit -m "First commity WS5, empty file"
+ 1002  git pull origin master
+ 1003  git push origin master
+ 1004  git status
+ 1005  cd Worksheet5
+ 1006  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+ 1007  ls
+ 1008  vi script.sh
+ 1009  ./script.sh
+ 1010  vi script.sh
+ 1011  chmod u+rx script.sh
+ 1012  ./script.sh
+ 1013  vi script.sh
+ 1014  ./script.sh
+ 1015  ls
+ 1016  vi script.sh
+ 1017  ./script.sh
+ 1018  mkdir United States
+ 1019  ls
+ 1020  rm -rf United States
+ 1021  mkdir "United States"
+ 1022  ls
+ 1023  rm -rf 'United States'
+ 1024  ls
+ 1025  mkdir 'United States'
+ 1026  ls
+ 1027  rm -rf 'United States'
+ 1028  ls
+ 1029  vi script.sh
+ 1030  ./script.sh
+ 1031  ls
+ 1032  cd Worksheet5
+ 1033  ls
+ 1034  cd 'United States'
+ 1035  ls
+ 1036  vi Comedy.txt
+ 1037  cd Worksheet5
+ 1038  cd ..
+ 1039  cd..
+ 1040  cd ..
+ 1041  ls
+ 1042  rm -rf Worksheet5
+ 1043  ls
+ 1044  vi script.sh
+ 1045  ./script.sh
+ 1046  ls
+ 1047  rm -rf 'Worksheet 5'
+ 1048  vi script.sh
+ 1049  ./script.sh
+ 1050  ls
+ 1051  cd Worksheet5
+ 1052  ls
+ 1053  cd ..
+ 1054  cd Worksheet5
+ 1055  ls
+ 1056  rm -rf Worksheet5
+ 1057  ls
+ 1058  vi ws5.txt
+ 1059  rm -rf ws5.txt
+ 1060  vi script.sh
+ 1061  ./script.sh
+ 1062  ls
+ 1063  rm -rf ws5.txt Worksheet5
+ 1064  ls
+ 1065  vi script.sh
+ 1066  ./script.sh
+ 1067  ls
+ 1068  rm -rf cs131 ws5.txt
+ 1069  ls
+ 1070  vi script.sh
+ 1071  ./script.sh
+ 1072  ls
+ 1073  vi script.sh
+ 1074  rm -rf 'United States' ws5.txt
+ 1075  ls
+ 1076  vi script.sh
+ 1077  ./script.sh
+ 1078  ls
+ 1079  cd 'United States'
+ 1080  ls
+ 1081  cd ..
+ 1082  vi ws5.txt
+ 1083  ls
+ 1084  rm -rf 'United States' ws5.txt
+ 1085  ls
+ 1086  vi script.sh
+ 1087  ./script.sh
+ 1088  ls
+ 1089  vi ws5.txt
+ 1090  cd 'United States'
+ 1091  ls
+ 1092  vi Comedy.txt
+ 1093  cd ..
+ 1094  rm -rf 'United States' ws5.txt
+ 1095  vi 'Global YouTube Statistics.csv'
+ 1096  ls
+ 1097  vi script.sh
+ 1098  mkdir "United States"
+ 1099  ls
+ 1100  vi script.sh
+ 1101  ./script.sh
+ 1102  ls
+ 1103  cat ws5.txt
+ 1104  vi 'Global YouTube Statistics.csv'
+ 1105  rm -rf ws5.txt
+ 1106  vi script.sh
+ 1107  ls
+ 1108  ./script.sh
+ 1109  ls'
+ls
+:wq
+
+
+
+
+'
+ 1110  ls
+ 1111  cat ws5.txt
+ 1112  cd 'United States'
+ 1113  ls
+ 1114  vi Comedy.txt
+ 1115  cd ..
+ 1116  vi script.sh
+ 1117  history | tail -n 250 > cmds.log
