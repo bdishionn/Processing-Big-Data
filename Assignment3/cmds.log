@@ -1,0 +1,200 @@
+  799  echo $?
+  800  ps | echo $?
+  801  vi favDrinkScript
+  802  bash favDrinkScript DrPepper Pizza
+  803  read X Y Z
+  804  echo $X
+  805  echo $Y
+  806  echo $Z
+  807  ready X Y Z
+  808  read X Y Z
+  809  echo $X
+  810  echo $Y
+  811  echo $Z
+  812  ls
+  813  vi favDrinkScript
+  814  cd cs131
+  815  ls
+  816  mkdir Worksheet5
+  817  touch Worksheet5/.placeholder
+  818  git add Worksheet/.placeholder
+  819  git add Worksheet5/.placeholder
+  820  git commit -m "First commit WS5, placeholder file which is empty"
+  821  git push origin master
+  822  git pull Worksheet5/.placeholder
+  823  git pull
+  824  git status
+  825  git pull orign master
+  826  ls
+  827  rm -rf Worksheet5/.placeholder
+  828  touch Worksheet5/.placeholder
+  829  git add Worksheet5./placeholder
+  830  git add Worhseet5/.placeholder
+  831  git add Worksheet5/.placeholder
+  832  git commit -m "First commity WS5, empty file"
+  833  git pull origin master
+  834  git push origin master
+  835  git status
+  836  cd Worksheet5
+  837  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  838  ls
+  839  vi script.sh
+  840  ./script.sh
+  841  vi script.sh
+  842  chmod u+rx script.sh
+  843  ./script.sh
+  844  vi script.sh
+  845  ./script.sh
+  846  ls
+  847  vi script.sh
+  848  ./script.sh
+  849  mkdir United States
+  850  ls
+  851  rm -rf United States
+  852  mkdir "United States"
+  853  ls
+  854  rm -rf 'United States'
+  855  ls
+  856  mkdir 'United States'
+  857  ls
+  858  rm -rf 'United States'
+  859  ls
+  860  vi script.sh
+  861  ./script.sh
+  862  ls
+  863  cd Worksheet5
+  864  ls
+  865  cd 'United States'
+  866  ls
+  867  vi Comedy.txt
+  868  cd Worksheet5
+  869  cd ..
+  870  cd..
+  871  cd ..
+  872  ls
+  873  rm -rf Worksheet5
+  874  ls
+  875  vi script.sh
+  876  ./script.sh
+  877  ls
+  878  rm -rf 'Worksheet 5'
+  879  vi script.sh
+  880  ./script.sh
+  881  ls
+  882  cd Worksheet5
+  883  ls
+  884  cd ..
+  885  cd Worksheet5
+  886  ls
+  887  rm -rf Worksheet5
+  888  ls
+  889  vi ws5.txt
+  890  rm -rf ws5.txt
+  891  vi script.sh
+  892  ./script.sh
+  893  ls
+  894  rm -rf ws5.txt Worksheet5
+  895  ls
+  896  vi script.sh
+  897  ./script.sh
+  898  ls
+  899  rm -rf cs131 ws5.txt
+  900  ls
+  901  vi script.sh
+  902  ./script.sh
+  903  ls
+  904  vi script.sh
+  905  rm -rf 'United States' ws5.txt
+  906  ls
+  907  vi script.sh
+  908  ./script.sh
+  909  ls
+  910  cd 'United States'
+  911  ls
+  912  cd ..
+  913  vi ws5.txt
+  914  ls
+  915  rm -rf 'United States' ws5.txt
+  916  ls
+  917  vi script.sh
+  918  ./script.sh
+  919  ls
+  920  vi ws5.txt
+  921  cd 'United States'
+  922  ls
+  923  vi Comedy.txt
+  924  cd ..
+  925  rm -rf 'United States' ws5.txt
+  926  vi 'Global YouTube Statistics.csv'
+  927  ls
+  928  vi script.sh
+  929  mkdir "United States"
+  930  ls
+  931  vi script.sh
+  932  ./script.sh
+  933  ls
+  934  cat ws5.txt
+  935  vi 'Global YouTube Statistics.csv'
+  936  rm -rf ws5.txt
+  937  vi script.sh
+  938  ls
+  939  ./script.sh
+  940  ls'
+  941  ls
+  942  :wq
+  943  '
+  944  ls
+  945  cat ws5.txt
+  946  cd 'United States'
+  947  ls
+  948  vi Comedy.txt
+  949  cd ..
+  950  vi script.sh
+  951  history | tail -n 250 > cmds.log
+  952  git add script.sh 'United States' ws5.txt 'Global YouTube Statistics.csv'
+  953  git add cmds.log
+  954  git status
+  955  git commit -m "Committing cmds.log, ws5.txt, and YouTube Stats files, and also pushing United States directory"
+  956  git push origin master
+  957  top
+  958  cd cs131
+  959  mkdir Assignment3
+  960  ls
+  961  touch Assignment3/.placeholder
+  962  git add Assignment3/.placeholder
+  963  git commit -m "First commit for Assignment 3, empty placeholder file"
+  964  git push origin master
+  965  git pull
+  966  git status
+  967  git push origin master
+  968  git status
+  969  ls
+  970  cd Assigmnent3
+  971  cd Assignment3
+  972  ls
+  973  cd ..
+  974  cd cs131
+  975  ls
+  976  cd ..
+  977  cd cs131
+  978  ls
+  979  touch *
+  980  ls
+  981  cd cs131
+  982  cd Assignment3
+  983  vi Assignment3.txt
+  984  vi lastf23.fake
+  985  ls
+  986  vi passwd.fake
+  987  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake | awk 'BEGIN {print "Users with usernames starting with \"a\" and UID divisible by 2: "} {print} END {print "End of list."}' >> Assignment3.txt
+  988  vi Assignment3.txt
+  989  vi passwd.fake
+  990  vi Assignment3.txt
+  991  vi passwd.fake
+  992  vi Assignment3.txt
+  993  sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u >> Assignment3.txt
+  994  vi Assignment3.txt
+  995  vi passwd.fake
+  996  vi Assignment3.txt
+  997  ls
+  998  history | tail -n 200 > cmds.log
