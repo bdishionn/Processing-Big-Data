@@ -21,6 +21,7 @@ Output of the command:
 The list of people who worked on Sunday are:
 jewonf23
 saniaf23
+tienf23
 Kudos to these people for putting in the work
 
 Task 3:
