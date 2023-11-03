@@ -8,6 +8,8 @@ Task 1, Part 3:
 1. Command(s) used to solve : wc -l lastf23.fake
    Output of Command: 239
 
+-----------------------------------------------------------------------------------------------
+
 Task 2:
 
 Commands used:
@@ -24,11 +26,13 @@ saniaf23
 tienf23
 Kudos to these people for putting in the work
 
+-----------------------------------------------------------------------------------------------
+
 Task 3:
 
 Commands used:
 
-awk '$4 >= "23:" || $4 <= "04:" {print $1}' lastf23.fake | sort | uniq | awk
+awk '$7 >= "23:" || $7 <= "04:" {print $1}' lastf23.fake | sort | uniq | awk
  'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope.
  Please ensure you get enough sleep though."}' >> Assignment3.txt
 
@@ -52,11 +56,13 @@ thif23
 tienf23
 Night Owls are dope. Please ensure you get enough sleep though.
 
+-----------------------------------------------------------------------------------------------
+
 Task 4:
 
 Commands used:
 
- awk '$4 >= "05:" && $4 <= "09:" {print $1}' lastf23.fake | sort | uniq | awk
+ awk '$7 >= "05:" && $7 <= "09:" {print $1}' lastf23.fake | sort | uniq | awk
  'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. 
 Please ensure you get enough sleep though."}' >> Assignment3.txt
 
@@ -64,8 +70,14 @@ Please ensure you get enough sleep though."}' >> Assignment3.txt
 Output of the command:
 
 Early Birds List:
-NO EARLY BIRDS!!!
+hamzaf23
+hof23
+saniaf23
+thif23
+tienf23
 Early Birds are dope. Please ensure you get enough sleep though.
+
+-----------------------------------------------------------------------------------------------
 
 Task 5:
 
@@ -81,6 +93,8 @@ Users with usernames starting with "t":
 thif23
 tienf23
 End of list.
+
+-----------------------------------------------------------------------------------------------
 
 Task 6:
 
@@ -100,6 +114,8 @@ ajay23fa
 alan23fa
 amreenf23
 End of list.
+
+-----------------------------------------------------------------------------------------------
 
 Task 7:
 
