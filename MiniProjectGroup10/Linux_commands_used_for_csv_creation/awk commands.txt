@@ -1,0 +1,29 @@
+Plot 1:
+
+awk 'BEGIN {FPAT = "\"[^\"]+\"|[^,]+"; OFS=","} {gsub(/\"/,"",$6); gsub(/\"/,"",$8); print $6, $8}' "Fortune 1000 Companies by Revenue.csv" > processed.csv
+
+Plot 2:
+
+awk -F',"' '{out=""; for(i=2; i<=NF; i++){gsub(/^"|"$/,"",$i); out=out (i>2?",":"") $i} print substr(out,2)}' 'Fortune 1000 Companies by Revenue.csv' > 'new_file.csv'
+
+tr -d '"' < 'new_file.csv' > 'cleaned_file.csv'
+
+cut -d',' -f1,2,12,13,14 cleaned_file.csv > cleaned_file1.csv
+
+head -n 25 cleaned_file1.csv > top_employees_revenue.csv
+
+
+
+Plot 3:
+
+cut -d',' -f3,4,6,7 'Fortune 1000 Companies by Revenue.csv' > revenue_profits.csv
+
+head -n 8 revenue_profits.csv > top_revenue_profits.csv
+
+sed 's/"//g; s/\$//g' top_revenue_profits.csv > cleaned_top_revenue_profits.csv
+
+
+
+
+
+
